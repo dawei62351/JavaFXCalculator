@@ -60,4 +60,12 @@ public class HelloController {
         sign.setText("/");
         operator = "/";
     }
+
+    @FXML
+    protected void reset (){
+        tf1.clear();
+        tf2.clear();
+        output.setText("");
+        sign.setText("");
+    }
 }
